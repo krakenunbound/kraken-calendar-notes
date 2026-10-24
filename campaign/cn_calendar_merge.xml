@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<!-- Add a second script to the core calendar window so we can override its
+	     addLogEntry() (player-creation gate) without replacing the whole file. -->
+	<windowclass name="calendar_main" merge="join">
+		<script file="scripts/cn_calendar_main.lua" />
+	</windowclass>
+</root>

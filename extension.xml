@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="3.3" release="1">
+  <properties>
+    <name>Kraken Calendar Notes</name>
+    <version>0.2</version>
+    <author>The Kraken</author>
+    <description>Lets players add notes to the in-game calendar by double-clicking a day (the base rulesets let only the GM). Notes use the shared Adventure Log, are stamped with the author and their identity colour, and belong to the player who made them.</description>
+    <loadorder>110</loadorder>
+    <ruleset><name>2E</name></ruleset>
+    <ruleset><name>CnCRPG</name></ruleset>
+    <ruleset><name>MGT2</name></ruleset>
+    <ruleset><name>3.5E</name></ruleset>
+    <ruleset><name>PFRPG</name></ruleset>
+  </properties>
+
+  <announcement>
+    <text>Kraken Calendar Notes v0.2</text>
+    <font>systemfont</font>
+  </announcement>
+
+  <base>
+    <script name="KrakenCalNotes" file="scripts/manager_cn.lua" />
+    <includefile source="campaign/cn_calendar_merge.xml" />
+  </base>
+</root>
